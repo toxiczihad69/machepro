@@ -1,0 +1,855 @@
+/* Global Css  */
+
+*{
+    transition: 0.3s ease-in-out;
+    font-family: 'Raleway', sans-serif;
+
+}
+
+/* Custom CSS  */
+
+/* Header Section  */
+header{
+    background: url(../img/home.jpg)no-repeat;
+    background-size: cover;
+}
+header .row {
+	padding: 150px 0;
+}
+.navbar{
+    background-color: transparent!important;
+}
+.navbar-brand {
+	color: white !important;
+	font-size: 25px;
+	font-weight: 800;
+}
+.dot {
+	color: #EC155B;
+	letter-spacing: 1px;
+	font-size: 26px;
+	margin-right: 7px;
+	font-family: 'Josefin Sans', sans-serif;
+}
+
+.nav-item .nav-link {
+	color: white !important;
+	font-size: 15px;
+	font-weight: 600;
+}
+.nav-item .nav-link:hover{
+    color: #EC155B!important;
+    transform: scale(1.1);
+    margin: 0 5px;
+}
+header h1 {
+	color: white;
+	font-size: 39px;
+	font-weight: 300;
+}
+header h2 {
+	color: #F6F6F6;
+	font-size: 17px;
+	font-weight: 400;
+	padding: 0px 10%;
+	line-height: 30px;
+}
+header hr {
+	height: 1px;
+	width: 185px;
+	color: #EC155B !important;
+	background-color: #EC155B;
+	border-radius: 10px;
+	margin: 20px auto;
+}
+header h1 span {
+	font-weight: 700;
+}
+header .col-md-12 button {
+	border: none;
+	border-radius: 30px;
+	padding: 10px 36px;
+	font-size: 13px;
+	background-color: #EC155B;
+	color: white;
+	font-weight: 700;
+	margin-top: 45px;
+}
+
+
+/* Macbook Section  */
+
+.macbook-section{
+    background: url(../img/main.png)no-repeat;
+    background-size: cover;
+    padding: 50px 0;
+}
+.macbook-section h3 {
+	font-family: 'Josefin Sans', sans-serif;
+	font-weight: 300;
+	color: #626262;
+    margin-top: 70px;
+}
+.macbook-section hr {
+	height: 1px;
+	width: 146px;
+	color: #EC155B !important;
+	background-color: #EC155B;
+	border-radius: 10px;
+	margin: 20px 0;
+}
+.macbook-section p {
+	font-size: 13px;
+	font-weight: 400;
+	color: #757575;
+    margin-bottom: 50px;
+}
+.macbook-section a {
+	color: #EC155B;
+	font-size: 16px;
+	font-weight: 600;
+    padding-left: 10px;
+}
+.macbook-section a:hover{
+    border: 2px solid #EC155B ;
+    border-radius: 30px;
+	padding: 10px ;
+
+    
+
+}
+.macbook-section i {
+	padding: 0 10px;
+	transform: scale(1.9);
+}
+.macbook-section img{
+    position: absolute;
+    top: 11%;
+}
+
+/* Services Section  */
+
+.services-section{
+    padding-bottom: 80px;
+}
+.services-section h3{
+	font-family: 'Josefin Sans', sans-serif;
+	font-weight: 300;
+	color: #626262;
+    margin-top: 100px;
+}
+.services-section hr{
+	height: 1px;
+	width: 146px;
+	color: #EC155B !important;
+	background-color: #EC155B;
+	border-radius: 10px;
+	margin: 20px auto;
+}
+.services-section p {
+	font-size: 13px;
+	font-weight: 400;
+	color: #757575;
+	margin-bottom: 50px;
+	padding: 0 20%;
+}
+.services-section h5{
+	color: #EC155B;
+	font-size: 16px;
+	font-weight: 600;
+    margin-top: 25px;
+}
+
+/* Quotes Section  */
+
+.quotes-section{
+    padding: 90px 0;
+    background: url(../img/quotes.jpg)no-repeat;
+    background-size: cover;
+}
+.quotes-section i {
+	color: #8E8E8E;
+	font-size: 50px;
+    transition: 0.1s ease-in-out;
+}
+.quotes-section i:hover{
+    color: white;
+    transform: scale(1.2);
+}
+
+.up {
+	position: absolute;
+	color: #EC155B;
+	font-size: 100px;
+	font-family: initial;
+	top: -90%;
+	font-weight: 700;
+	left: 45%;
+}
+.down {
+	position: absolute;
+	color: #EC155B;
+	font-size: 100px;
+	font-family: initial;
+	top: 70%;
+	font-weight: 700;
+	left: 45%;
+}
+.quotes-section p {
+	color: white;
+	font-family: 'Josefin Sans', sans-serif;
+	font-weight: 200;
+	font-size: 20px;
+	padding: 0 5%;
+}
+
+/* Pricelist Section  */
+
+.pricelist-section{
+    padding: 80px 0;
+    background-color: #F4F4F4;
+}
+.pricelist-section h3{
+	font-family: 'Josefin Sans', sans-serif;
+	font-weight: 300;
+	color: #626262;
+}
+.pricelist-section hr{
+	height: 1px;
+	width: 146px;
+	color: #EC155B !important;
+	background-color: #EC155B;
+	border-radius: 10px;
+	margin: 20px auto;
+}
+.pricelist-section p{
+	font-size: 13px;
+	font-weight: 400;
+	color: #757575;
+	margin-bottom: 50px;
+	padding: 0 20%;
+}
+
+/* Card Section  */
+
+.card-head {
+	background-color: #5A5A5A;
+}
+.car .card-head:hover{
+    background-color: #EC155B;
+}
+.car:hover{
+    transform: scale(1.05);
+    
+}
+.card-head h4 {
+	color: white;
+	font-size: 50px;
+	padding-top: 5px;
+}
+.card-head sub {
+	font-size: 20px;
+	padding-right: 5px;
+}
+.card-head h5 {
+	color: white;
+	font-weight: 600;
+	font-size: 16px;
+	padding-bottom: 50px;
+    margin-bottom: 0;
+}
+.card-head span {
+	color: #5E5E5E;
+	background-color: #F4F4F4;
+	font-weight: 700;
+	padding: 13px 45px;
+	border-radius: 30px;
+	position: absolute;
+	left: 20%;
+	top: 27%;
+    font-size: 14px;
+}
+
+
+
+.card-foot {
+	background-color: white;
+	padding-top: 60px;
+	padding-bottom: 35px;
+}
+.card-foot h5 {
+	font-size: 15px;
+	padding-bottom: 10px;
+	color: gray;
+	font-weight: 500;
+}
+.card-foot button {
+	font-weight: 700;
+	padding: 13px 50px;
+	border-radius: 30px;
+	border: none;
+	background-color: #EC155B;
+	color: white;
+	font-size: 14px;
+}
+
+.card-foot button:hover{
+    background-color: #5E5E5E;
+    color: white;
+}
+
+
+/* Feature Section  */
+
+.feature-section {
+    padding-top: 90px;
+}
+
+.feature-section h5 {
+	font-size: 17px;
+	font-weight: 600;
+	color: #EC155B;
+}
+.feature-section p {
+	font-size: 13px;
+	color: #686868;
+	font-weight: 500;
+	padding-bottom: 20%;
+}
+
+
+/* Membership Section  */
+
+.membership-section{
+    background-color: #EC155B;
+    padding: 35px 0;
+}
+.membership-section h2 {
+	color: white;
+	font-size: 41px;
+	font-weight: 200;
+}
+.membership-section h2 span {
+	font-weight: 500;
+}
+.membership-section button {
+	border: none;
+	border-radius: 30px;
+	padding: 10px 50px;
+	font-size: 17px;
+	color: #EC155B;
+	font-weight: 600;
+	margin-top: 3px;
+}
+
+/* Updates Section  */
+
+.updates-section{
+    padding: 80px 0;
+}
+.updates-section h3 {
+	font-family: 'Josefin Sans', sans-serif;
+	font-weight: 300;
+	color: #626262;
+	text-align: center;
+	font-size: 40px;
+}
+.updates-section hr{	
+    height: 1px;
+	width: 146px;
+	color: #EC155B !important;
+	background-color: #EC155B;
+	border-radius: 10px;
+	margin: 20px auto;
+    text-align: center;
+}
+.updates-section h5 {
+	font-size: 16px;
+	font-weight: 400;
+	color: #757575;
+	margin-bottom: 50px;
+	padding: 0 20%;
+	text-align: center;
+}
+
+.one{
+    width: 100%;
+    height: 100%;
+    position: relative;
+}
+.two {
+	width: 100%;
+	height: 67%;
+	position: absolute;
+	top: 0;
+	left: 0;
+	opacity: 0;
+}
+.two:hover{
+    opacity: 1;
+}
+
+.lol{
+    background-color: #F4F4F4;
+}
+
+.lol:hover{
+    transform: scale(1.05);
+}
+
+.updates-section h6 {
+	padding: 20px 15px;
+	text-transform: uppercase;
+	color: #5B5B5B;
+	font-weight: 600;
+	font-size: 17px;
+}
+.updates-section p {
+	padding: 0px 15px 20px;
+	color: #5B5B5B;
+	font-size: 14px;
+	font-weight: 500;
+}
+
+.updates-section button {
+	border: none;
+	background-color: transparent;
+	margin-top: 80px;
+	color: #EC155B;
+	font-weight: 500;
+	font-size: 15px;
+}
+.updates-section i {
+	display: block;
+	color: #EC155B;
+	font-size: 20px;
+}
+
+
+/* Info Section  */
+
+.info-section{
+    padding: 80px 0;
+    background: url(../img/info.jpg);
+}
+.info-section h3{
+	font-family: 'Josefin Sans', sans-serif;
+	font-weight: 300;
+	color: white;
+}
+.info-section hr{
+	height: 1px;
+	width: 146px;
+	color: #EC155B !important;
+	background-color: #EC155B;
+	border-radius: 10px;
+	margin: 20px auto;
+}
+.info-section p {
+	font-size: 14px;
+	font-weight: 400;
+	color: #d7d7d7;
+	padding: 0 20%;
+	line-height: 26px;
+}
+.info-section button {
+	font-weight: 700;
+	padding: 13px 50px;
+	border-radius: 30px;
+	border: none;
+	background-color: #EC155B;
+	color: white;
+	font-size: 12px;
+	margin-top: 35px;
+}
+
+
+
+/* Browser Section  */
+
+.browser-section{
+    padding: 80px 0;
+}
+.browser-section h3{
+	font-family: 'Josefin Sans', sans-serif;
+	font-weight: 300;
+	color: #626262;
+}
+.browser-section hr {
+	height: 1px;
+	width: 160px;
+	color: #EC155B !important;
+	background-color: #EC155B;
+	border-radius: 10px;
+	margin: 20px 0;
+}
+.browser-section p {
+	font-size: 14px;
+	font-weight: 400;
+	color: #757575;
+	margin-bottom: 50px;
+	line-height: 30px;
+}
+
+.browser-section button{
+	font-weight: 700;
+	padding: 13px 50px;
+	border-radius: 30px;
+	border: none;
+	background-color: #EC155B;
+	color: white;
+	font-size: 12px;
+}
+
+
+/* Footer Section  */
+
+footer{
+    background-color: #2B2B2B;
+    padding: 50px 0;
+}
+
+footer span:first-child {
+	color: white;
+	font-size: 13px;
+	font-weight: 500;
+}
+
+footer span:nth-child(2){
+    color: white;
+    font-size: 13px;
+    font-weight: 500;
+    float: right;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* Responsive Media Queries  */
+
+/* For Mobile Device  */
+@media(min-width: 320px) and (max-width: 576px){
+
+/* Header Area  */
+
+
+.navbar-brand {
+	font-size: 20px;
+}
+.dot {
+	font-size: 19px;
+}
+
+header .mnu, i{
+    color: whitesmoke;
+font-size: 18px;
+}
+
+
+header .row {
+	padding: 100px 0;
+}
+
+header h1 {
+	font-size: 33px;
+}
+
+
+header h2 {
+	font-size: 13px;
+	line-height: 24px;
+}
+
+header .col-md-12 button {
+	font-size: 10px;
+	margin-top: 32px;
+}
+
+/* Macbook Area  */
+
+.macbook-section {
+	padding: 65px 0 300px;
+}
+
+.macbook-section h3 {
+	margin-top: 10px;
+	text-align: center;
+	font-size: 25px;
+}
+.macbook-section hr {
+	margin: 20px auto;
+}
+
+
+.macbook-section p {
+	font-size: 11px;
+	text-align: center;
+}
+
+
+
+.macbook-section img {
+	top: 20px;
+	left: 0;
+}
+.macbook-section a {
+	position: absolute;
+	bottom: 0;
+	left: 30%;
+}
+
+.macbook-section a:hover{
+    display: none;
+    
+}.macbook-section a i{
+    color: #EC155B;
+}
+
+
+/* Services Section  */
+.services-section {
+	padding-bottom: 50px;
+}
+.services-section h3 {
+	margin-top: 50px;
+	text-align: center;
+	font-size: 25px;
+}
+
+
+.services-section p {
+	font-size: 11px;
+	margin-bottom: 50px;
+    padding: 0;
+}
+
+
+
+.services-section h5 {
+	font-size: 10px;
+	margin-top: 15px;
+}
+
+/* Quotes Section  */
+
+.quotes-section p {
+	font-size: 12px;
+    padding: 0;
+}
+.quotes-section i {
+	font-size: 40px;
+}
+
+.up {
+	left: 40%;
+}
+
+.down {
+	left: 40%;
+}
+
+/* Price Section  */
+
+.pricelist-section {
+	padding: 50px 0;
+}
+
+.pricelist-section h3 {
+	font-size: 25px;
+}
+
+
+
+.pricelist-section p {
+	font-size: 11px;
+	margin-bottom: 50px;
+    padding: 0;
+}
+
+.card-head span {
+	left: 30%;
+	font-size: 11px;
+}
+
+
+.card-foot button {
+	font-size: 11px;
+}
+
+.car{
+    margin-bottom: 25px;
+}
+
+/* Feature Section  */
+.feature-section {
+	padding-top: 50px;
+}
+.feature-section h5 {
+	font-size: 13px;
+	margin-top: 10px;
+}
+.feature-section p {
+	font-size: 11px;
+    padding-bottom: 10%;
+}
+.f{
+    text-align: center;
+}
+
+/* Membership Area  */
+
+.membership-section h2 {
+	font-size: 33px;
+	text-align: center;
+}
+.membership-section button {
+	font-size: 12px;
+	margin: 3px auto;
+	display: block;
+}
+
+
+
+
+/* Updates Section  */
+.updates-section {
+	padding: 50px 0;
+}
+
+.updates-section h3{
+	text-align: center;
+	font-size: 25px;
+}
+.updates-section h5{
+	font-size: 11px;
+    padding: 0;
+}
+
+.updates-section h6 {
+	padding: 10px 15px;
+	font-size: 15px;
+}
+
+.updates-section p {
+	padding: 0px 10px 17px;
+	font-size: 11px;
+}
+
+.two:hover{opacity: 0;}
+
+
+
+.updates-section button {
+	margin-top: 10px;
+	font-size: 10px;
+}
+
+
+/* Info Section  */
+
+
+.info-section {
+	padding: 50px 0;
+}
+.info-section h3{
+	text-align: center;
+	font-size: 25px;
+}
+
+.info-section p {
+	font-size: 11px;
+	margin-bottom: 50px;
+    padding: 0;
+}
+
+.info-section button {
+	font-size: 9px;
+    margin: 0;
+}
+
+/* Browser Section  */
+
+.browser-section{
+    padding: 50px 0;
+}
+
+.browser-section h3{
+	text-align: center;
+	font-size: 25px;
+    padding-top: 10px;
+}
+.browser-section hr{
+    margin: 20px auto;
+}
+.browser-section p{
+	font-size: 11px;
+	margin-bottom: 50px;
+    padding: 0;
+    text-align: center;
+    line-height: 24px;
+
+}
+.browser-section button {
+	font-size: 9px;
+	display: block;
+	margin: 0 auto;
+}
+
+/* Footer  */
+footer {
+	padding: 20px 0;
+}
+footer span:first-child {
+	font-size: 8px;
+}
+footer span:nth-child(2) {
+	font-size: 8px;
+    float:none;
+	display: block;
+}
+.c{text-align: center;}
+
+
+
+
+
+
+
+}
+
+/* For Small Devices  */
+@media(min-width: 576.01px) and (max-width: 768px){
+
+}
+
+/* For Medium Devices  */
+@media(min-width: 768.01px) and (max-width: 992px){
+
+}
+
+/* For Desktop/Laptop Devices  */
+@media(min-width: 992.01px) and (max-width: 1200px){
+
+}
+
+/* For Extra Large Devices  */
+@media(min-width: 1200px){
+
+}
